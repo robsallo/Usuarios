@@ -1,0 +1,22 @@
+para ejecutar instalación de todos los paquetes que hará uso el proyecto ejecutar en la terminal
+
+>> pip install -r requirements/local.txt
+
+esto estando en el directorio al nivel de carpeta "requirements" 
+
+
+ojo: cada vez que se instale un paquete agrega a la lista del archivo local.txt (lo mismo cuando sea con prod.txt)
+
+Para ver cuales están instalados 
+
+>> pip freeze --local
+
+ejemplo salida y que se deben copia en local.txt
+
+asgiref==3.8.1
+Django==4.1
+pillow==11.0.0
+sqlparse==0.5.1
+typing_extensions==4.12.2
+tzdata==2024.2
+Unipath==1.1
